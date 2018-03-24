@@ -26,11 +26,15 @@ add_ssh_configs() {
             "Host gitee.com" \
             "  IdentityFile $1" \
             "  LogLevel ERROR" \
+            "Host dns.yufan.me" \
+            "  IdentityFile $1" \
+            "  LogLevel ERROR" \
             "Host git.coding.net" \
             "  IdentityFile $1" \
             "  LogLevel ERROR" >> ~/.ssh/config
     ssh-keyscan git.coding.net >> ~/.ssh/known_hosts
     ssh-keyscan gitee.com >> ~/.ssh/known_hosts
+    ssh-keyscan dns.yufan.me >> ~/.ssh/known_hosts
 }
 
 decrypt_private_ssh_key() {
