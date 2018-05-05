@@ -35,7 +35,7 @@ default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 1
-render_drafts: false
+render_drafts: true
 post_asset_folder: false
 relative_link: false
 future: true
@@ -120,9 +120,6 @@ nofollow:
   enable: true
 #  exclude:
 #    - exclude1.com
-
-# Render drafts
-render_drafts: true
 
 browsersync:
   logLevel: "warn"
