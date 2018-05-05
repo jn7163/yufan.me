@@ -149,14 +149,9 @@ aplayer:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: rsync
-  host: dns.yufan.me
-  user: root
-  root: /data/wwwroot/yufan.me/
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: false
+  type: git
+  repo:
+    github: git@github.com:syhily/yufan.me.git,gh-pages
 
 # Sitemap
 sitemap:

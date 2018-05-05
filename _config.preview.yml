@@ -132,3 +132,8 @@ deploy:
   delete: true
   verbose: true
   ignore_errors: false
+
+browsersync:
+  logLevel: "warn"
+  ghostMode:
+    scroll: true
