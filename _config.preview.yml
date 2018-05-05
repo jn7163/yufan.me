@@ -121,17 +121,8 @@ nofollow:
 #  exclude:
 #    - exclude1.com
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: rsync
-  host: yufan.me
-  user: root
-  root: /data/wwwroot/yufan.me
-  port: 1992
-  delete: true
-  verbose: true
-  ignore_errors: false
+# Render drafts
+render_drafts: true
 
 browsersync:
   logLevel: "warn"
