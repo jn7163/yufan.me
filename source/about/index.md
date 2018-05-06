@@ -2,11 +2,10 @@
 title: 关于我
 date: 2017-05-03 21:27:50
 comments: false
+thumbnail: https://cat.yufan.me/cats/20130101180005.jpg!index
 ---
 
-<hr />
-
-![](https://cat.yufan.me/cats/20130101180005.jpg)
+{% aplayer "アイロニ" "暧昧ばんび~な" "https://media.yufan.me/musics/2018-05-06-01/%e3%82%a2%e3%82%a4%e3%83%ad%e3%83%8b.mp3" "https://media.yufan.me/musics/2018-05-06-01/%e3%82%a2%e3%82%a4%e3%83%ad%e3%83%8b.jpg" "lrc:https://media.yufan.me/musics/2018-05-06-01/%e3%82%a2%e3%82%a4%e3%83%ad%e3%83%8b.lrc" %}
 
 2007年，我开始写Blog，第一个Blog名字叫做“雨帆”。
 
@@ -48,6 +47,12 @@ comments: false
 
 俗话说，人不中二枉少年，小生也曾经一段时间徘徊于二次元世界，至今依旧喜欢看动画。由于受日本文化迫害较深，常常会从嘴里冒出一两句不知所云的日语来卖萌，被基友狠狠吐槽。久而久之，养成抖M性格，很多时候，我会去别的博客以“无知”的留言来卖萌，例：“博主好厉害啊，小菜表示什么都不懂”之类的。而其实，鄙人自认为在与电脑有关的领域掌握颇深，所以对于技术一类的文章如果见到鄙人的留言，基本都是坐等被吐槽的。
 
-写了这么多，我想一定没人当我是女生了吧。好开心~！
+写了这么多，我想一定没人当我是女生了吧。好开心~!
 
 ![](https://cat.yufan.me/cats/2017-05-03-IMG_0163.JPG)
+
+**博客存活时间**
+
+<script>function secondToDate(second){if(!second){return 0}var time=new Array(0,0,0,0,0);if(second>=365*24*3600){time[0]=parseInt(second/(365*24*3600));second%=365*24*3600}if(second>=24*3600){time[1]=parseInt(second/(24*3600));second%=24*3600}if(second>=3600){time[2]=parseInt(second/3600);second%=3600}if(second>=60){time[3]=parseInt(second/60);second%=60}if(second>0){time[4]=second}return time};function setTime(){var create_time=Math.round(new Date(Date.UTC(2011,09,05,20,14,19)).getTime()/1000);var timestamp=Math.round((new Date().getTime()+8*60*60*1000)/1000);currentTime=secondToDate((timestamp-create_time));currentTimeHtml=currentTime[0]+'年'+currentTime[1]+'天'+currentTime[2]+'时'+currentTime[3]+'分'+currentTime[4]+'秒';document.getElementById("htmer_time").innerHTML=currentTimeHtml}setInterval(setTime,1000);</script>
+
+本站已运行 **<span class="sidebar-badge" id="htmer_time"></span>**

@@ -28,6 +28,7 @@ code_dir:
 i18n_dir: :lang
 skip_render:
   - README.md
+  - 404.html
 
 # Writing
 new_post_name: :year-:month-:day.md # File name of new posts
@@ -40,13 +41,18 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace: false
+
+prism_plugin:
+  mode: 'preprocess'
+  theme: 'solarizedlight'
   line_number: true
-  auto_detect: true
-  tab_replace: true
 
 # Category & Tag
-default_category: Articles
+default_category: 文章
 category_map: categories
 tag_map: tags
 
@@ -65,7 +71,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: spectre
 
 # Feed
 feed:
@@ -79,9 +85,7 @@ feed:
 algolia:
   applicationID: 'P7AW0XU2U9'
   apiKey: 'f8c0b1b00e71ad9276f28a477a789759'
-#  adminApiKey: '7287218181351ce0bb1680c764eef447'
   indexName: 'Hexo'
-#  chunkSize: 5000
 
 # Number of index
 category_generator:
@@ -144,7 +148,9 @@ nofollow:
 #    - exclude1.com
 
 aplayer:
-  externalLink: https://cat.yufan.me/asserts/APlayer.min.js
+  meting: false
+  cdn: https://cat.yufan.me/asserts/APlayer.min.js
+  style_cdn: https://cat.yufan.me/asserts/APlayer.min.css
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
