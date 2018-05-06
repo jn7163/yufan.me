@@ -27,6 +27,7 @@ color:
 # Jump Links Settings
 url:
   rss: /rss.xml
+  sitemap: /sitemap.xml
   daily_pic: ""
   logo: "https://yufan.me"
 
