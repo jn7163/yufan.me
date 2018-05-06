@@ -4,4 +4,4 @@ This is the source code of [my weblog](https://yufan.me) based on [hexo](https:/
 
 You can make your own static weblog like me.
 
-The theme was [Melody](https://github.com/Molunerfinn/hexo-theme-melody), it was updated to the latest version everytime I update my weblog.
+The theme was [spectre](https://github.com/syhily/yufan.me/tree/master/themes/spectre), a self maintained theme.

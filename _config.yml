@@ -149,8 +149,8 @@ nofollow:
 
 aplayer:
   meting: false
-  cdn: https://cat.yufan.me/asserts/APlayer.min.js
-  style_cdn: https://cat.yufan.me/asserts/APlayer.min.css
+  cdn: https://cat.yufan.me/asserts/spectre/scripts/APlayer.min.js
+  style_cdn: https://cat.yufan.me/asserts/spectre/scripts/APlayer.min.css
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
