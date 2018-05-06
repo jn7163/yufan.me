@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cat.yufan.me/asserts/spectre/styles/gallery.min.css">
+<link rel="stylesheet" href="<%= theme.static_resource_prefix %>/styles/gallery.min.css">
 
 <body>
     <!-- Wrapper -->
@@ -35,9 +35,9 @@
     </div>
 
     <!-- Scripts -->
-    <script src="https://cat.yufan.me/asserts/spectre/scripts/jquery.min.js"></script>
-    <script src="https://cat.yufan.me/asserts/spectre/scripts/jquery.lazyload.min.js"></script>
-    <script src="https://cat.yufan.me/asserts/spectre/scripts/gallery.min.js"></script>
+    <script src="<%= theme.static_resource_prefix %>/scripts/jquery.min.js"></script>
+    <script src="<%= theme.static_resource_prefix %>/scripts/jquery.lazyload.min.js"></script>
+    <script src="<%= theme.static_resource_prefix %>/scripts/gallery.min.js"></script>
     <script>
         queue.offer(function(){
             $('.lazy').lazyload({

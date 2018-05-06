@@ -4,7 +4,7 @@
 <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
 
 <!-- Import CSS -->
-<style id="spectre_css"></style><script>lsloader.css("spectre_css","https://cat.yufan.me/asserts/spectre/styles/spectre/spectre.min.css")</script>
-<style id="spectre_exp_css"></style><script>lsloader.css("spectre_exp_css","https://cat.yufan.me/asserts/spectre/styles/spectre/spectre-exp.min.css")</script>
-<style id="style_css"></style><script>lsloader.css("spectre_exp_css","https://cat.yufan.me/asserts/spectre/styles/style.min.css")</script>
-<style id="prism_css"></style><script>lsloader.css("prism_css","https://cat.yufan.me/asserts/spectre/styles/prism.min.css")</script>
+<style id="spectre_css"></style><script>lsloader.css("spectre_css","<%= theme.static_resource_prefix %>/styles/spectre/spectre.min.css")</script>
+<style id="spectre_exp_css"></style><script>lsloader.css("spectre_exp_css","<%= theme.static_resource_prefix %>/styles/spectre/spectre-exp.min.css")</script>
+<style id="style_css"></style><script>lsloader.css("spectre_exp_css","<%= theme.static_resource_prefix %>/styles/style.min.css")</script>
+<style id="prism_css"></style><script>lsloader.css("prism_css","<%= theme.static_resource_prefix %>/styles/prism.min.css")</script>

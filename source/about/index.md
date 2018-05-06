@@ -2,7 +2,7 @@
 title: 关于我
 date: 2017-05-03 21:27:50
 comments: false
-thumbnail: https://cat.yufan.me/cats/20130101180005.jpg!index
+featureImage: https://cat.yufan.me/cats/20130101180005.jpg
 ---
 
 {% aplayer "アイロニ" "暧昧ばんび~な" "https://media.yufan.me/musics/2018-05-06-01/%e3%82%a2%e3%82%a4%e3%83%ad%e3%83%8b.mp3" "https://media.yufan.me/musics/2018-05-06-01/%e3%82%a2%e3%82%a4%e3%83%ad%e3%83%8b.jpg" "lrc:https://media.yufan.me/musics/2018-05-06-01/%e3%82%a2%e3%82%a4%e3%83%ad%e3%83%8b.lrc" %}

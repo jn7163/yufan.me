@@ -1,6 +1,6 @@
-<% if(post.thumbnail) { %>
+<% if(post.featureImage) { %>
     <div class="card with-thumbnail">
-        <a href="<%= url_for(post.path) %>" class="card-image lazy" data-src="<%= post.thumbnail %>"></a>
+        <a href="<%= url_for(post.path) %>" class="card-image lazy" data-src="<%= post.featureImage %>!thumbnail"></a>
 <% } else { %>
     <div class="card no-thumbnail">
 <% } %>

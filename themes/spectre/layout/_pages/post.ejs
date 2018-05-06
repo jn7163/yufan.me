@@ -1,7 +1,7 @@
 <div class="container container-post">
     <div class="card post-card col-mx-auto">
-        <% if(page.thumbnail) { %>
-            <div class="card-image" style="background-image: url('<%= page.thumbnail %>');"></div>
+        <% if(page.featureImage) { %>
+            <div class="card-image" style="background-image: url('<%= page.featureImage %>');"></div>
         <% } else { %>
             <div class="card-no-image"></div>
         <% } %>
@@ -47,5 +47,4 @@
             </div>
         <% } %>
     </div>
-
 </div>

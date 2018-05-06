@@ -1,12 +1,12 @@
 <!-- Import JS -->
-<script>lsloader.js("lazy_js","https://cat.yufan.me/asserts/spectre/scripts/lazyload.min.js")</script>
+<script>lsloader.js("lazy_js_vender","<%= theme.static_resource_prefix %>/scripts/lazyload.min.js")</script>
 
 <!-- Comment -->
 <% if(theme.comment.use){ %>
     <%- partial('_plugin/comment/' + theme.comment.use + '/common') %>
  <% } %>
 
-<script type="text/ls-javascript" id="lazy-load">
+<script type="text/javascript">
     var myLazyLoad = new LazyLoad({
         elements_selector: ".lazy"
     });

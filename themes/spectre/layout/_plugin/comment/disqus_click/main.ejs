@@ -15,7 +15,7 @@
     };
 </script>
 
-<script type="text/ls-javascript" id="disqus-lazy-load-script">
+<script type="text/javascript">
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'https://disqus.com/next/config.json', true);
     xhr.timeout = 4000;
@@ -27,7 +27,7 @@
             s.src = '//<%= theme.comment.shortname %>.disqus.com/embed.js';
             s.setAttribute('data-timestamp', + new Date());
             (d.head || d.body).appendChild(s);
-            document.querySelector(".disqus_click_btn").setAttribute("style", "display:none")
+            document.querySelector(".disqus_click_btn").setAttribute("style", "display:none");
         }
     };
     xhr.ontimeout = function(e) {
@@ -44,6 +44,6 @@
             s.setAttribute('data-timestamp', + new Date());
             (d.head || d.body).appendChild(s);
         })();
-        document.querySelector(".disqus_click_btn").setAttribute("style", "display:none")
+        document.querySelector(".disqus_click_btn").setAttribute("style", "display:none");
     };
 </script>

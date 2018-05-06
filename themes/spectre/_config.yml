@@ -184,6 +184,8 @@ search:
   use: true # true || false
   link: /search
 
+static_resource_prefix: https://cat.yufan.me/asserts/spectre
+
 # ---------------------------------------------------------------
 # Do Not Edit Below This Line, unless you know what you are doing!
 # ---------------------------------------------------------------
