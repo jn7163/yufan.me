@@ -27,8 +27,6 @@ before_script:
   - git config --global user.email ${GH_USER_EMAIL}
 
 script:
-  # Make sure the theme was the latest
-  - git clone -b master https://github.com/syhily/hexo-theme-spectre themes/spectre
   - hexo algolia --chunk-size=5000 # The HEXO_ALGOLIA_INDEXING_KEY should be encrypted
   - hexo generate
   - hexo deploy
